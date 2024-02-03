@@ -1,0 +1,161 @@
+Layout responsive
+
+HTML
+    elements and types ?
+        1. inline✅
+        2. block-level✅
+
+        <h1 name="value">content</h1>✅
+        <p style="property:value;"></p>✅
+        <section></section>✅
+
+        self-closing tag ✅
+        <meta>
+        <img>
+
+    attributes✅
+        name="value"
+        id=""
+        class=""    
+
+
+CSS
+    property:value;✅
+    color:red;
+
+
+    1. inline   attribute/ style="property:value;"✅
+    2. internal element/ <style></style> ✅
+        attribute,✅
+        selector and types?✅
+        :> 
+              1.Element selector
+                    eg. (<p>) : p{}
+              2. ID selector 
+                    eg. (paragraph) : #para {_}
+              3. Class selector 
+                    eg.(class) : .center{}
+              4. Universal selector 
+                    eg. *{}
+              5. Group selector 
+                    eg. h1{_}
+                        h2{}
+    3. external file.css✅
+
+    color:_;
+    font-family:_;
+    font-size:_;
+    font-style:_;
+    font-weight:_;
+    line-height:_;
+
+    width:_;
+    max-width:_;
+    min-width:_;
+    height:_;
+    min-height:_;
+    max-height:_;
+    border-width:_;
+    border-color:_;
+    border-style:_;
+    margin:_;
+    padding:_;
+    
+    what is box-model?✅
+
+    box-sizing:border-box;?✅
+    display:✅
+            inline,
+            block,
+            inline-block,
+            none,
+            flex
+            (
+                align-items:_;
+                align-content:_;
+                justify-content:_;
+                flex-wrap:_;
+                flex-direction:_;
+            )
+
+HTML semantics?✅
+
+format✅
+
+      1 row = 12 col✅
+      .container{
+            max-width:1140px;
+            padding-left:12px;
+            padding-right:12px;
+            margin-left:auto;
+            margin-right:auto;
+      }
+
+      .row{
+            display:flex;
+            flex-direction:row;
+            flex-wrap:wrap;
+            margin-left:-12px;
+            margin-right:-12px;
+      }
+
+      .col-1 {
+            width: 8.33%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-2 {
+            width: 16.66%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-3 {
+            width: 25%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-4 {
+            width: 33.33%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-5 {
+            width: 41.66%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-6 {
+            width: 50%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-7 {
+            width: 58.33%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-8 {
+            width: 66.66%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-9 {
+            width: 75%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-10 {
+            width: 83.33%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-11 {
+            width: 91.66%;
+            padding-left:12px;
+            padding-right:12px;
+      }
+      .col-12 {
+            width: 100%;
+            padding-left:12px;
+            padding-right:12px;
+      }
